@@ -1,0 +1,14 @@
+.home {
+  background-color: #f0f0f0; /* Cambia este color según tus necesidades */
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.home h1 {
+  color: #333; /* Asegúrate de que el color contraste con el fondo */
+  font-size: 2rem;
+  margin: 20px 0;
+}
