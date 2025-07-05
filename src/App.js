@@ -15,7 +15,6 @@ function App() {
           <Route path="/" element={<Navigate to="/register" />} />
           <Route path="/register" element={<RegisterPage />} />
           <Route path="/login" element={<LoginPage />} />
-          
         </Routes>
       </div>
     </AuthProvider>

@@ -27,12 +27,12 @@ const RegisterPage = () => {
     <div>
       <h2>Register Page</h2>
       <form onSubmit={handleSubmit}>
-        <input
-          type="text"
+      <input
+          type="username"
           name="username"
           value={formData.username}
           onChange={handleInputChange}
-          placeholder="Username"
+          placeholder="username"
         />
         <input
           type="email"
